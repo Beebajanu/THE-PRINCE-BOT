@@ -1,17 +1,17 @@
 var handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let pp = princeImg.getRandom()	
-const cat = `*_🛡️ᴘʀɪɴᴄᴇ ʙᴏᴛ ᴍᴅ🛡️_*
+const cat = `*ツ✮͢_⬖͠☞𝅉ᷩ𝅏ⷷ𝅉ⷷ𝅏ᷩ𝅉ᷲ𝅏𝅉ᷟ𝅏ᷴ𝅉ᷛ𝅏ⷩ𝅉ͣ𝅏ᷞ𓃮★᭄*
 
 
-*_—◉ ᴘʀɪɴᴄᴇ ʙᴏᴛ ᴏᴡɴᴇʀ 𝟷 wa.me/923092668108_*
+*_—◉Beeba ʙᴏᴛ ᴏᴡɴᴇʀ 𝟷 wa.me/923007393724_*
 
 *_—◉ ᴘʀɪɴᴄᴇ ʙᴏᴛ ᴏᴡɴᴇʀ 2 wa.me/92_*
 *---------------------*
 
 
 *_ᴛʜᴇ ᴍᴏᴅᴇʀᴀᴛᴏʀ_*
-*${developer}*`
+*☛⃟⍮⍪✗_ᷩ_ⷷ₇ⷷ₂ᷩ₄ᷧ〽️𝖀𝖌𝖍⁴𝖑❤‍🔥͜͡𓃮*`
 
 await conn.sendFile(m.chat, pp, 'menuvid', cat, fkontak)
 }
